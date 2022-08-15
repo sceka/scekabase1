@@ -1,0 +1,43 @@
+.featured-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+}
+
+.featured-containers {
+    width: 100%;
+    background-color: #141929;
+}
+
+.featured-container-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 76%;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+}
+
+.scekaMovies {
+    text-decoration: none;
+    font-size: 25px;
+    &:hover {
+        color: red;
+        transition: 0.2s ease-in-out;
+    }
+}
+
+.marko {
+    width: 400px;
+    // height: 200px;
+}
+
+.marko-wrapper {
+    max-width: 200px;
+    margin-right: 50%;
+}
